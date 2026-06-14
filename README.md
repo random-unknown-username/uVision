@@ -86,3 +86,13 @@ For machine learning tasks, the μVision board offers a powerful computational a
 - get the bom file and upload to lcsc.com and order the full parts list (some stuff can be out of stock, but lcsc is regularly stocked so you can wait)
 - solder based on the design .epro3 file shared (to be opened in easyedaPro, its free!)
 
+## hackclub forge submission AI told me to add these-
+
+<img width="560" height="540" alt="image" src="https://github.com/user-attachments/assets/5456300e-2fb3-4be5-b080-fc7678d882b1" />
+<img width="437" height="433" alt="image" src="https://github.com/user-attachments/assets/88b28071-1fc9-4c99-8e0c-2e916bb9d738" />
+<img width="462" height="424" alt="image" src="https://github.com/user-attachments/assets/9e8571ea-162b-4836-a0ac-6d8350889447" />
+<img width="437" height="432" alt="image" src="https://github.com/user-attachments/assets/be8d1137-b5c8-48ca-b71d-bb194c11cde7" />
+
+
+
+
