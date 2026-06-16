@@ -1,5 +1,11 @@
 # μVision
-AI vision development kit based on the V851se, featuring a 0.5TOPS NPU
+μVision is a tiny AI vision development board designed for running computer vision models directly on-device. It is built around the Allwinner V851SE/V851s3 processor, which includes a 0.5 TOPS NPU for accelerating neural network inference.
+
+The goal of this project is to make a small, low-cost board that can take camera input, process images locally, and run machine learning tasks without needing a powerful external computer. This makes it useful for embedded vision projects such as object detection, image classification, smart cameras, robotics, edge AI experiments, and other projects where a camera needs to understand what it is seeing.
+
+The board includes camera input support, onboard storage, USB, Ethernet, GPIO, UART, SPI, I2C, PWM, and other interfaces, making it suitable as a compact development kit for experimenting with AI-powered hardware. Instead of sending images to the cloud for processing, μVision is intended to run models locally using its built-in NPU.
+
+In simple terms, μVision is a small board that lets you plug in a camera, run AI vision models, and use the results in real-world electronics projects.
 
 <img width="822" height="627" alt="image" src="https://github.com/user-attachments/assets/fa266abc-9c43-440f-a09d-29426eba7ca6" />
 <img width="694" height="581" alt="image" src="https://github.com/user-attachments/assets/6c980e86-5f17-4475-8c9d-abbc6684bf53" />
@@ -80,18 +86,25 @@ For machine learning tasks, the μVision board offers a powerful computational a
 | 37 | 1 | MUP-M617-2 | U10 | TF-SMD_MUP-M617-2 |  | MUP-M617-2 | MUP(德海威) | C5205359 | LCSC |
 | 38 | 1 | 24MHz | X1 | osc-smd_4p-l2.0-w1.6-bl | 24MHz | Q22FA12800489 | EPSON(爱普生) | C255882 | LCSC |
 
-## how to build?
+# how to build?
 
 - grab the gerbers, upload to jlcpcb and order
 - get the bom file and upload to lcsc.com and order the full parts list (some stuff can be out of stock, but lcsc is regularly stocked so you can wait)
 - solder based on the design .epro3 file shared (to be opened in easyedaPro, its free!)
 
-## hackclub forge submission AI told me to add these-
+## pcb-
 
 <img width="560" height="540" alt="image" src="https://github.com/user-attachments/assets/5456300e-2fb3-4be5-b080-fc7678d882b1" />
 <img width="437" height="433" alt="image" src="https://github.com/user-attachments/assets/88b28071-1fc9-4c99-8e0c-2e916bb9d738" />
 <img width="462" height="424" alt="image" src="https://github.com/user-attachments/assets/9e8571ea-162b-4836-a0ac-6d8350889447" />
 <img width="437" height="432" alt="image" src="https://github.com/user-attachments/assets/be8d1137-b5c8-48ca-b71d-bb194c11cde7" />
+
+## schematic- 
+
+<img width="776" height="419" alt="image" src="https://github.com/user-attachments/assets/9b2a1011-d14b-4e10-936e-21cfb73a87bf" />
+<img width="990" height="489" alt="image" src="https://github.com/user-attachments/assets/05af3746-5793-45bf-b481-3a7d4e72941c" />
+<img width="586" height="539" alt="image" src="https://github.com/user-attachments/assets/feba7938-d568-4e0f-b3ba-97bf7f3e8730" />
+<img width="900" height="558" alt="image" src="https://github.com/user-attachments/assets/79e41e72-6905-40ca-a478-b7526f7d3213" />
 
 
 
