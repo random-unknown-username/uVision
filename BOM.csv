@@ -1,0 +1,5 @@
+Item,Source,Qty,Total
+PCB fabrication,JLCPCB,5 boards,$2
+Components from LCSC,LCSC,full BOM,$38
+Shipping,JLCPCB/LCSC,1,$19
+Total project cost,,,$60
