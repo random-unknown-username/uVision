@@ -45,12 +45,12 @@ For machine learning tasks, the μVision board offers a powerful computational a
 
 ## cost to make-
 
-| Item                 |      Source |      Qty | Unit price | Total |
-| -------------------- | ----------: | -------: | ---------: | ----: |
-| PCB fabrication      |      JLCPCB | 5 boards |         $X |    $X |
-| Components from LCSC |        LCSC | full BOM |         $X |    $X |
-| Shipping             | JLCPCB/LCSC |        1 |         $X |    $X |
-| Total project cost   |             |          |            |    $X |
+| Item                 |      Source |      Qty | Total | 
+| -------------------- | ----------: | -------: | ---------: | 
+| PCB fabrication      |      JLCPCB | 5 boards |         $2 | 
+| Components from LCSC |        LCSC | full BOM |         $38 |  
+| Shipping             | JLCPCB/LCSC |        1 |         $19 |   
+| Total project cost   |             |          |         $60 |  
 
 
 
