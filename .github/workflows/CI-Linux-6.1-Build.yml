@@ -41,6 +41,6 @@ jobs:
       - name: Build Linux 6.1 Kernel Test
         run: |
           cd kernel/linux-6.1
-          make CROSS_COMPILE=arm-linux-gnueabihf- ARCH=arm tinyvision_defconfig
+          make CROSS_COMPILE=arm-linux-gnueabihf- ARCH=arm uvision_defconfig
           make CROSS_COMPILE=arm-linux-gnueabihf- ARCH=arm -j$(nproc)
           cd -

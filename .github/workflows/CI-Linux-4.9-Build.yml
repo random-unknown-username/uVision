@@ -39,6 +39,6 @@ jobs:
       - name: Build Linux 4.9 Kernel Test
         run: |
           cd kernel/linux-4.9
-          make CROSS_COMPILE=arm-linux-gnueabi- ARCH=arm tinyvision_defconfig
+          make CROSS_COMPILE=arm-linux-gnueabi- ARCH=arm uvision_defconfig
           make CROSS_COMPILE=arm-linux-gnueabi- ARCH=arm -j$(nproc)
           cd -
